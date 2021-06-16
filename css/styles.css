@@ -1,0 +1,181 @@
+/* Title */
+
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+#title{
+    background-color: #ff4c68;
+    height:700px;
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.7;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+
+/* Navigation bar */
+
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.button1{
+    margin: 10% 3% 5% 0;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(20deg);
+    position: relative;
+    top:20%;
+    left:25%;
+    
+}
+
+
+/* Features */
+
+#features{
+    padding:7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{
+    color: grey;
+}
+
+/* testimonials */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    font-family: 'Montserrat-Black', sans-serif;
+    color: white;
+    font-weight: bold;
+    
+}
+
+h2{
+    font-family: 'Montserrat-Black', sans-serif;
+    color: white;
+    font-weight: bold;
+    line-height: 1.8;
+
+}
+
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.carousel-inner{
+    padding:7% 15%;
+
+}
+
+/* press */
+
+#press{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.press1{
+    width: 20%;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+    
+}
+
+@media (max-width:1028px)
+{
+    .title-image{
+        width: 60%;
+        position: static;
+        
+    }
+
+    h1{
+        font-family: 'Montserrat-Black', sans-serif;
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 1.7;
+        color: white;
+        text-align: center;
+    }
+    #features{
+        padding:7% 15%;
+        background-color: white;
+        
+        
+    }
+}
+
+
+/* cta */
+
+#cta{
+    padding:7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+    
+}
+
+#cta h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* footer */
+
+#footer{
+    padding: 7% ;
+    text-align: center;
+}
+
